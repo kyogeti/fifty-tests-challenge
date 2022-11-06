@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{AF34889F-6F38-4497-8809-DD071CC1B168}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		fifty-tests-challenge.sln = fifty-tests-challenge.sln
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{481A5612-77EB-4DE5-890B-43262C28F396}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE29C5CF-D077-41BE-AB22-D13B12FBA037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsChallenge.Domain", "src\TestsChallenge.Domain\TestsChallenge.Domain.csproj", "{0B024F53-6C87-46A7-884B-5D42A520C6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsChallenge.Shared", "src\TestsChallenge.Shared\TestsChallenge.Shared.csproj", "{D1CD7498-C03D-404C-9D0B-155F29E186E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsChallenge.CQRS", "src\TestsChallenge.CQRS\TestsChallenge.CQRS.csproj", "{90F43BBC-364A-4B21-87D5-015B893A82B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsChallenge.UnitTests", "tests\TestsChallenge.UnitTests\TestsChallenge.UnitTests.csproj", "{3BFBA054-9C9D-41C1-898A-E7B2545E4337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B024F53-6C87-46A7-884B-5D42A520C6D4} = {481A5612-77EB-4DE5-890B-43262C28F396}
+		{D1CD7498-C03D-404C-9D0B-155F29E186E8} = {481A5612-77EB-4DE5-890B-43262C28F396}
+		{90F43BBC-364A-4B21-87D5-015B893A82B3} = {481A5612-77EB-4DE5-890B-43262C28F396}
+		{3BFBA054-9C9D-41C1-898A-E7B2545E4337} = {DE29C5CF-D077-41BE-AB22-D13B12FBA037}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B024F53-6C87-46A7-884B-5D42A520C6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B024F53-6C87-46A7-884B-5D42A520C6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B024F53-6C87-46A7-884B-5D42A520C6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B024F53-6C87-46A7-884B-5D42A520C6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CD7498-C03D-404C-9D0B-155F29E186E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CD7498-C03D-404C-9D0B-155F29E186E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CD7498-C03D-404C-9D0B-155F29E186E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CD7498-C03D-404C-9D0B-155F29E186E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F43BBC-364A-4B21-87D5-015B893A82B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F43BBC-364A-4B21-87D5-015B893A82B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F43BBC-364A-4B21-87D5-015B893A82B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F43BBC-364A-4B21-87D5-015B893A82B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFBA054-9C9D-41C1-898A-E7B2545E4337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFBA054-9C9D-41C1-898A-E7B2545E4337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFBA054-9C9D-41C1-898A-E7B2545E4337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFBA054-9C9D-41C1-898A-E7B2545E4337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
