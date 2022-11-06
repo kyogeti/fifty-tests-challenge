@@ -1,4 +1,5 @@
-﻿using TestsChallenge.Shared.Abstractions;
+﻿using System.Linq.Expressions;
+using TestsChallenge.Shared.Abstractions;
 
 namespace TestsChallenge.Shared.Repository;
 
@@ -9,7 +10,7 @@ public interface IBaseRepository<T> where T : IBaseModel
     Task Remove(T entity);
     Task Update(T entity);
     Task<T> GetOne(Guid id);
-    Task<IEnumerable<T>> GetMany(Func<IBaseModel> condition);
+    Task<IEnumerable<T>> GetMany(Expression<Func<IBaseModel>>? condition);
     Task Deactivate(Guid id);
     Task Activate(Guid id);
 }
