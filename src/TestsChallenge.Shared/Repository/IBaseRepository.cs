@@ -10,7 +10,7 @@ public interface IBaseRepository<T> where T : IBaseModel
     Task Remove(T entity);
     Task Update(T entity);
     Task<T> GetOne(Guid id);
-    Task<IEnumerable<T>> GetMany(Expression<Func<IBaseModel>>? condition);
+    Task<IEnumerable<T>> GetMany(Expression<Func<IEnumerable<T>>>? condition);
     Task Deactivate(Guid id);
     Task Activate(Guid id);
 }
