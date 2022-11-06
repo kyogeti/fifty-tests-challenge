@@ -2,7 +2,7 @@
 
 This project aims to practice writing unit tests, in a deliberate and purposeless attempt. The challenge is to write at least 50 unit tests for the entire project.
 
-#### Currently achieved: 3/50
+#### Currently achieved: 9/50
 
 ### Setup
 
