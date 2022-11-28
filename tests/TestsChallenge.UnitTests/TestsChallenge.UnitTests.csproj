@@ -25,10 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="CQRS" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <ProjectReference Include="..\..\src\TestsChallenge.CQRS\TestsChallenge.CQRS.csproj" />
       <ProjectReference Include="..\..\src\TestsChallenge.Domain\TestsChallenge.Domain.csproj" />
     </ItemGroup>
 

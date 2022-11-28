@@ -7,5 +7,8 @@
     &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.Domain.Builders.PersonBuilderTests.BuildPerson_GivenCreatePersonDto_ShouldBuildAsExpected&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.Domain.Builders.PersonBuilderTests.BuildPerson_GivenCreatePersonDtoWithBadConstruction_ShouldNotMatchExpected&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.Domain.Builders.PersonBuilderTests.BuildPerson_GivenCreatePersonDtoWithBadGenreConstruction_ShouldNotMatchExpected&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.CQRS.RequestHandlers.CreatePersonRequestHandlerTests.Handle_GivenInvalidPerson_ShouldThrowValidationException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.CQRS.RequestHandlers.CreatePersonRequestHandlerTests.Handle_GivenValidPerson_ShouldAddToRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3BFBA054-9C9D-41C1-898A-E7B2545E4337::net6.0::TestsChallenge.UnitTests.CQRS.RequestHandlers.CreatePersonRequestHandlerTests.Handle_GivenValidPerson_ShouldReturnAsExpected&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

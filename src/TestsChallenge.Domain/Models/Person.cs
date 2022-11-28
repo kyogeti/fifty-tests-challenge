@@ -1,4 +1,4 @@
-﻿using FluentValidation.Results;
+﻿using FluentValidation;
 using TestsChallenge.Domain.Models.Abstractions;
 using TestsChallenge.Domain.Validators;
 using TestsChallenge.Shared.Abstractions;
@@ -16,8 +16,13 @@ public class Person : BaseModel, IValidatableEntity
         Details = details;
     }
 
-    public ValidationResult Validate()
+    public void Validate()
     {
-        return new PersonValidator().Validate(this);
+        var validationResult = new PersonValidator().Validate(this);
+
+        if (!validationResult.IsValid)
+        {
+            throw new ValidationException(validationResult.Errors);
+        }
     }
 }

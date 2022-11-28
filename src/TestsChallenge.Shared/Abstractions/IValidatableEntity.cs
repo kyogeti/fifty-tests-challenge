@@ -4,5 +4,5 @@ namespace TestsChallenge.Shared.Abstractions;
 
 public interface IValidatableEntity
 {
-    ValidationResult Validate();
+    void Validate();
 }
